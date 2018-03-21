@@ -15,7 +15,7 @@ pipeline {
 
         steps {
 
-          sh "mvn clean --settings ambiente/maven/settings.xml"
+          sh "mvn cleam --settings ambiente/maven/settings.xml"
           sh "mvn compile --settings ambiente/maven/settings.xml"
           sh "mvn package --settings ambiente/maven/settings.xml"
           sh "mvn install --settings ambiente/maven/settings.xml"
